@@ -12,6 +12,11 @@ constructor(private router: Router) { }
 ngOnInit() {
   }
   onLogin(emw,pass) {
-this.router.navigate(['dash',emw]);
+this.router.navigate(['dash',emw],{ 
+queryParams:{//passing through navigate function
+  page:1,
+  items:10
+}
+});
   }
 }
