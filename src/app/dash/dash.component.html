@@ -2,6 +2,7 @@
   <div class="col-md-12">
 <h1>Hello, {{user}}</h1>
 
-<input type="text" [(ngModel)]="badge"><a [routerLink]="['/dash',badge]">View Profile</a>
+<input type="text" [(ngModel)]="badge"><a [routerLink]="['/dash',badge]"[queryParams]="{to:'faceb'}">View Profile</a>
+<img src="" alt="">
   </div>
 </div>
