@@ -8,7 +8,7 @@ import { ForgetCompoComponent } from './forget-compo/forget-compo.component';
 
 const routes: Routes = [
     { path: '', component: LoginComponent },
-    { path: 'dash', component: DashComponent },
+    { path: 'dash/:user', component: DashComponent },
     { path: 'forgetpass', component: ForgetCompoComponent }
 ];
 

@@ -11,7 +11,7 @@ constructor(private router: Router) { }
 
 ngOnInit() {
   }
-  onLogin() {
-this.router.navigate(['dash']);
+  onLogin(emw,pass) {
+this.router.navigate(['dash',emw]);
   }
 }

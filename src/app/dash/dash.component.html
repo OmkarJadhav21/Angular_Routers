@@ -1,3 +1,7 @@
-<p>
-  dash works!
-</p>
+<div class="row well" >
+  <div class="col-md-12">
+<h1>Hello, {{user}}</h1>
+
+<input type="text" [(ngModel)]="badge"><a [routerLink]="['/dash',badge]">View Profile</a>
+  </div>
+</div>

@@ -16,5 +16,7 @@
 
   <button class="btn btn-lg btn-primary btn-block" type="button" (click)="onLogin(em.value,pass.value)">Sign in</button>
 </form>
+
+<input type="text" [(ngModel)]="badge"><a [routerLink]="['/dash',badge]">View Profile</a>{{badge}}
 </div>
 </div>
