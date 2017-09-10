@@ -9,12 +9,16 @@ import { RouterModule } from '@angular/router';
 import { ForgetCompoComponent } from './forget-compo/forget-compo.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { ProfileComponent } from './dash/profile.component';
+import { ActivityComponent } from './dash/activity.component';
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
     DashComponent,
-    ForgetCompoComponent
+    ForgetCompoComponent,
+    ProfileComponent,
+    ActivityComponent
   ],
   imports: [
     BrowserModule,
