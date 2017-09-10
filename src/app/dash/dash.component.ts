@@ -10,11 +10,11 @@ import { Component, OnInit } from '@angular/core';
 export class DashComponent implements OnInit {
 
   constructor(private acRt:ActivatedRoute) { }
-user:String
+username:String
   ngOnInit() {
-    this.user=this.acRt.snapshot.params['user']
+    this.username=this.acRt.snapshot.params['user']
     this.acRt.params.subscribe(
-      myfun=>this.user=myfun['user']
+      myfun=>this.username=myfun['user']
     );
   }
 
