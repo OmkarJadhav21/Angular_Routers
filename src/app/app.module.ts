@@ -11,6 +11,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { ProfileComponent } from './dash/profile.component';
 import { ActivityComponent } from './dash/activity.component';
+import { PipesComponent } from './pipes/pipes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +19,8 @@ import { ActivityComponent } from './dash/activity.component';
     DashComponent,
     ForgetCompoComponent,
     ProfileComponent,
-    ActivityComponent
+    ActivityComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
